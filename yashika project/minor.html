@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yashika">
+	<meta name="description" content="Music player project using HTML and CSS.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/png" href="Icon/icon1.png">
+	<link href="https://fonts.googleapis.com/css?family=Kanit|Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="minor.css">
+	<title>Coding Ninja Studio</title>
+</head>
+<body>
+	<header>
+		<div id="logo" class="inb">
+			<img src="Image/icon1.png">
+			<span id="logo-name">
+				NINJA </br><b>STUDIO</b>
+			</span>
+		</div>
+		<div id="head-fav" class="inb">
+			<span id="fav"><a href="">FAVOURITES</a></span>
+		</div>
+		<div id="search" class="inb">
+			<form>
+				<button id="search-btn"><i class="fas fa-search"></i></button>
+				<input type="text" name="search-item" placeholder="Search" required>
+				<button id="search-voice" type="button"><i class="fas fa-microphone"></i></button>
+			</form>
+		</div>
+		<div id="alert" class="inb">
+			<a href=""><i class="fas fa-bell"></i></a>
+		</div>
+		<div id="profile" class="inb">
+			<img src="Image/profile.jpg" class="profile-img">
+			<div class="profile-menu">
+				<p><a href="">ALERT</a></p>
+				<p><a href="">NOTIFICATION</a></p>
+				<p><a href="">LOGOUT</a></p>
+			</div>
+		</div>
+	</header>
+	<div class="ham">
+		<a href="#ham-list" style="color: white;"><i class="fas fa-bars" style="font-size: 2rem;"></i></a>
+		<div id="ham-list" class="ham-list">
+			<div class="content-list">
+				<p class="list-s"><a href="">SEARCH</a></p>
+				<p class="list-a"><a href="">ALERT</a></p>
+				<p class="list-f"><a href="">FAVOURITES</a></p>
+			</div>
+		</div>
+	</div>
+	<main>
+		<section class="inb">
+			<div class="artist scroll">
+				<img src="Image/coldplay.jpg">
+				<div class="artist-shadow">
+				
+				</div>
+				<div class="artist-detail">
+					<h1 class="heading">COLDPLAY</h1>
+					<span class="artist-follower"><b>851</b> FOLLOWERS</span>
+					<span class="artist-info">
+						<b>BRITISH BAND</b><br/>
+						<p>
+							Coldplay are a British rock band formed in London in 1996. The four members are – lead vocalist/pianist:- Chris Martin, lead guitarist:- Jonny Buckland, bassist Guy Berryman and drummer Will Champion – were at University College London and came together from 1996 to 1998, during which time the band changed names from Pectoralz , to STARFISH, then COLDPLAY.
+						</p>
+						<br/>
+						<button><b>PLAY ALL</b></button> &emsp; <a href=""><b>Follow</b></a>
+						<p style="color: white; font-size: 0.8rem;">247 Tracks | 128 Albums</p>
+					</span>
+				</div>
+			</div>
+			<div class="artist-song">
+				<div class="song">
+					<div class="inb song-index">
+						01
+					</div> 
+					<img src="Image/song-1.jpg">
+					<div class="inb song-detail">
+						<p><b>MIRAGE</b><br/><span style="color: lightgrey;">Else</span></p>
+					</div>
+					<div class="song-like">
+						<i class="far fa-heart"></i> &emsp;
+						<span class="plus">
+							<i class="fas fa-plus"></i>
+							<div class="song-drop">
+								<p><a href="">ADD TO PLAYLIST</a></p>
+								<p><a href="">ADD TO WISHLIST</a></p>
+							</div>
+					    </span>
+					</div>
+					<div class="song-play">
+						<a href="#footer"><i class="fas fa-play"></i></a>
+					</div>
+				</div>
+				<div class="song">
+					<div class="inb song-index">
+						01
+					</div> 
+					<img src="Image/song-1.jpg">
+					<div class="inb song-detail">
+						<p><b>MIRAGE</b><br/><span style="color: lightgrey;">Else</span></p>
+					</div>
+					<div class="song-like">
+						<i class="far fa-heart"></i> &emsp;
+						<span class="plus">
+							<i class="fas fa-plus"></i>
+							<div class="song-drop">
+								<p><a href="">ADD TO PLAYLIST</a></p>
+								<p><a href="">ADD TO WISHLIST</a></p>
+							</div>
+					    </span>
+					</div>
+					<div class="song-play">
+						<a href="#footer"><i class="fas fa-play"></i></a>
+					</div>
+				</div>
+				<div class="song">
+					<div class="inb song-index">
+						01
+					</div> 
+					<img src="Image/song-1.jpg">
+					<div class="inb song-detail">
+						<p><b>MIRAGE</b><br/><span style="color: lightgrey;">Else</span></p>
+					</div>
+					<div class="song-like">
+						<i class="far fa-heart"></i> &emsp;
+						<span class="plus">
+							<i class="fas fa-plus"></i>
+							<div class="song-drop">
+								<p><a href="">ADD TO PLAYLIST</a></p>
+								<p><a href="">ADD TO WISHLIST</a></p>
+							</div>
+					    </span>
+					</div>
+					<div class="song-play">
+						<a href="#footer"><i class="fas fa-play"></i></a>
+					</div>
+				</div>
+				<div class="song">
+					<div class="inb song-index">
+						01
+					</div> 
+					<img src="Image/song-1.jpg">
+					<div class="inb song-detail">
+						<p><b>MIRAGE</b><br/><span style="color: lightgrey;">Else</span></p>
+					</div>
+					<div class="song-like">
+						<i class="far fa-heart"></i> &emsp;
+						<span class="plus">
+							<i class="fas fa-plus"></i>
+							<div class="song-drop">
+								<p><a href="">ADD TO PLAYLIST</a></p>
+								<p><a href="">ADD TO WISHLIST</a></p>
+							</div>
+					    </span>
+					</div>
+					<div class="song-play">
+						<a href="#footer"><i class="fas fa-play"></i></a>
+					</div>
+				</div>
+				<div class="song">
+					<div class="inb song-index">
+						01
+					</div> 
+					<img src="Image/song-1.jpg">
+					<div class="inb song-detail">
+						<p><b>MIRAGE</b><br/><span style="color: lightgrey;">Else</span></p>
+					</div>
+					<div class="song-like">
+						<i class="far fa-heart"></i> &emsp;
+						<span class="plus">
+							<i class="fas fa-plus"></i>
+							<div class="song-drop">
+								<p><a href="">ADD TO PLAYLIST</a></p>
+								<p><a href="">ADD TO WISHLIST</a></p>
+							</div>
+					    </span>
+					</div>
+					<div class="song-play">
+						<a href="#footer"><i class="fas fa-play"></i></a>
+					</div>
+				</div>
+				<div class="song">
+					<div class="inb song-index">
+						01
+					</div> 
+					<img src="Image/song-1.jpg">
+					<div class="inb song-detail">
+						<p><b>MIRAGE</b><br/><span style="color: lightgrey;">Else</span></p>
+					</div>
+					<div class="song-like">
+						<i class="far fa-heart"></i> &emsp;
+						<span class="plus">
+							<i class="fas fa-plus"></i>
+							<div class="song-drop">
+								<p><a href="">ADD TO PLAYLIST</a></p>
+								<p><a href="">ADD TO WISHLIST</a></p>
+							</div>
+					    </span>
+					</div>
+					<div class="song-play">
+						<a href="#footer"><i class="fas fa-play"></i></a>
+					</div>
+				</div>
+				<div class="song">
+					<div class="inb song-index">
+						01
+					</div> 
+					<img src="Image/song-1.jpg">
+					<div class="inb song-detail">
+						<p><b>MIRAGE</b><br/><span style="color: lightgrey;">Else</span></p>
+					</div>
+					<div class="song-like">
+						<i class="far fa-heart"></i> &emsp;
+						<span class="plus">
+							<i class="fas fa-plus"></i>
+							<div class="song-drop">
+								<p><a href="">ADD TO PLAYLIST</a></p>
+								<p><a href="">ADD TO WISHLIST</a></p>
+							</div>
+					    </span>
+					</div>
+					<div class="song-play">
+						<a href="#footer"><i class="fas fa-play"></i></a>
+					</div>
+				</div>
+				<div class="song">
+					<div class="inb song-index">
+						01
+					</div> 
+					<img src="Image/song-1.jpg">
+					<div class="inb song-detail">
+						<p><b>MIRAGE</b><br/><span style="color: lightgrey;">Else</span></p>
+					</div>
+					<div class="song-like">
+						<i class="far fa-heart"></i> &emsp;
+						<span class="plus">
+							<i class="fas fa-plus"></i>
+							<div class="song-drop">
+								<p><a href="">ADD TO PLAYLIST</a></p>
+								<p><a href="">ADD TO WISHLIST</a></p>
+							</div>
+					    </span>
+					</div>
+					<div class="song-play">
+						<a href="#footer"><i class="fas fa-play"></i></a>
+					</div>
+				</div>
+				<div class="song">
+					<div class="inb song-index">
+						01
+					</div> 
+					<img src="Image/song-1.jpg">
+					<div class="inb song-detail">
+						<p><b>MIRAGE</b><br/><span style="color: lightgrey;">Else</span></p>
+					</div>
+					<div class="song-like">
+						<i class="far fa-heart"></i> &emsp;
+						<span class="plus">
+							<i class="fas fa-plus"></i>
+							<div class="song-drop">
+								<p><a href="">ADD TO PLAYLISTt</a></p>
+								<p><a href="">ADD TO WISHLIST</a></p>
+							</div>
+					    </span>
+					</div>
+					<div class="song-play">
+						<a href="#footer"><i class="fas fa-play"></i></a>
+					</div>
+				</div>
+				<div class="song">
+					<div class="inb song-index">
+						01
+					</div> 
+					<img src="Image/song-1.jpg">
+					<div class="inb song-detail">
+						<p><b>MIRAGE</b><br/><span style="color: lightgrey;">Else</span></p>
+					</div>
+					<div class="song-like">
+						<i class="far fa-heart"></i> &emsp;
+						<span class="plus">
+							<i class="fas fa-plus"></i>
+							<div class="song-drop">
+								<p><a href="">ADD TO PLAYLIST</a></p>
+								<p><a href="">ADD TO WISHLIST</a></p>
+							</div>
+					    </span>
+					</div>
+					<div class="song-play">
+						<a href="#footer"><i class="fas fa-play"></i></a>
+					</div>
+				</div>
+				<div class="song">
+					<div class="inb song-index">
+						01
+					</div> 
+					<img src="Image/song-1.jpg">
+					<div class="inb song-detail">
+						<p><b>MIRAGE</b><br/><span style="color: lightgrey;">Else</span></p>
+					</div>
+					<div class="song-like">
+						<i class="far fa-heart"></i> &emsp;
+						<span class="plus">
+							<i class="fas fa-plus"></i>
+							<div class="song-drop">
+								<p><a href="">ADD TO PLAYLIST</a></p>
+								<p><a href="">ADD TO WISHLIST</a></p>
+							</div>
+					    </span>
+					</div>
+					<div class="song-play">
+						<a href="#footer"><i class="fas fa-play"></i></a>
+					</div>
+				</div>
+				<div class="song">
+					<div class="inb song-index">
+						01
+					</div> 
+					<img src="Image/song-1.jpg">
+					<div class="inb song-detail">
+						<p><b>MIRAGE</b><br/><span style="color: lightgrey;">Else</span></p>
+					</div>
+					<div class="song-like">
+						<i class="far fa-heart"></i> &emsp;
+						<span class="plus">
+							<i class="fas fa-plus"></i>
+							<div class="song-drop">
+								<p><a href="">ADD TO PLAYLIST</a></p>
+								<p><a href="">ADD TO WISHLIST</a></p>
+							</div>
+					    </span>
+					</div>
+					<div class="song-play">
+						<a href="#footer"><i class="fas fa-play"></i></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<aside class="inb">
+			<div class="s-artist">
+				<h1 class="heading">SimilarArtist</h1>
+				<div class="view"><a href="">ViewAll</a></div>
+				<a href="#footer"><div class="s-artist-song">
+					<div class="s-artist-background">
+					</div>
+					<img src="Image/song.jpg">
+					<div class="s-artist-detail">
+						<p><b>IMAGINE DRAGONS</b></p>
+						<p style="color: lightgrey;">POP BAND</p>
+					</div>
+					<div class="s-artist-drop">
+						<i class="fas fa-ellipsis-h" style="color: #93A8B3;"></i>
+						<div class="drop-detail">
+							<p><a href="">ADD TO PLAYLIST</a></p>
+							<p><a href="">ADD TO WISHLIST</a></p>
+						</div>
+					</div>
+					<div class="s-artist-play">
+						<i class="fas fa-play"></i>
+					</div>
+				</div></a>
+				<a href="#footer"><div class="s-artist-song">
+					<div class="s-artist-background">
+					</div>
+					<img src="Image/song.jpg">
+					<div class="s-artist-detail">
+						<p><b>IMAGINE DRAGONS</b></p>
+						<p style="color: lightgrey;">POP BAND</p>
+					</div>
+					<div class="s-artist-drop">
+						<i class="fas fa-ellipsis-h" style="color: #93A8B3;"></i>
+						<div class="drop-detail">
+							<p><a href="">ADD TO PLAYLIST</a></p>
+							<p><a href="">ADD TO WISHLIST</a></p>
+						</div>
+					</div>
+					<div class="s-artist-play">
+						<i class="fas fa-play"></i>
+					</div>
+				</div></a>
+				<a href="#footer"><div class="s-artist-song">
+					<div class="s-artist-background">
+					</div>
+					<img src="Image/song.jpg">
+					<div class="s-artist-detail">
+						<p><b>IMAGINE DRAGONS</b></p>
+						<p style="color: lightgrey;">POP BAND</p>
+					</div>
+					<div class="s-artist-drop">
+						<i class="fas fa-ellipsis-h" style="color: #93A8B3;"></i>
+						<div class="drop-detail">
+							<p><a href="">ADD TO PLAYLIST</a></p>
+							<p><a href="">ADD TO WISHLIST</a></p>
+						</div>
+					</div>
+					<div class="s-artist-play">
+						<i class="fas fa-play"></i>
+					</div>
+				</div></a>
+			</div>
+			<div class="r-played">
+				<h1 class="heading">RecentlyPlayed</h1>
+				<div class="view"><a href="" style="color: lightgrey;">ViewAll</a></div>
+				<a href="#footer"><div class="r-played-song">
+					<div class="played-index">
+						01
+					</div>
+					<img src="Image/starboy.jpg">
+					<div class="played-details">
+						<b>MIRAGE</b>
+						<br/><span style="color: lightgrey;">Else</span>
+					</div>
+					<div class="played-like">
+						<i class="far fa-heart"></i>
+					</div>
+				</div></a>
+				<a href="#footer"><div class="r-played-song">
+					<div class="played-index">
+						01
+					</div>
+					<img src="Image/starboy.jpg">
+					<div class="played-details">
+						<b>MIRAGE</b>
+						<br/><span style="color: lightgrey;">Else</span>
+					</div>
+					<div class="played-like">
+						<i class="far fa-heart"></i>
+					</div>
+				</div></a>
+				<a href="#footer"><div class="r-played-song">
+					<div class="played-index">
+						01
+					</div>
+					<img src="Image/starboy.jpg">
+					<div class="played-details">
+						<b>MIRAGE</b>
+						<br/><span style="color: lightgrey;">Else</span>
+					</div>
+					<div class="played-like">
+						<i class="far fa-heart"></i>
+					</div>
+				</div></a>
+				<a href="#footer"><div class="r-played-song">
+					<div class="played-index">
+						01
+					</div>
+					<img src="Image/starboy.jpg">
+					<div class="played-details">
+						<b>MIRAGE</b>
+						<br/><span style="color: lightgrey;">Else</span>
+					</div>
+					<div class="played-like">
+						<i class="far fa-heart"></i>
+					</div>
+				</div></a>
+				<a href="#footer"><div class="r-played-song">
+					<div class="played-index">
+						01
+					</div>
+					<img src="Image/starboy.jpg">
+					<div class="played-details">
+						<b>MIRAGE</b>
+						<br/><span style="color: lightgrey;">Else</span>
+					</div>
+					<div class="played-like">
+						<i class="far fa-heart"></i>
+					</div>
+				</div></a>
+				<a href="#footer"><div class="r-played-song">
+					<div class="played-index">
+						01
+					</div>
+					<img src="Image/starboy.jpg">
+					<div class="played-details">
+						<b>MIRAGE</b>
+						<br/><span style="color: lightgrey;">Else</span>
+					</div>
+					<div class="played-like">
+						<i class="far fa-heart"></i>
+					</div>
+				</div></a>
+				<a href="#footer"><div class="r-played-song">
+					<div class="played-index">
+						01
+					</div>
+					<img src="Image/starboy.jpg">
+					<div class="played-details">
+						<b>MIRAGE</b>
+						<br/><span style="color: lightgrey;">Else</span>
+					</div>
+					<div class="played-like">
+						<i class="far fa-heart"></i>
+					</div>
+				</div></a>
+				<a href="#footer"><div class="r-played-song">
+					<div class="played-index">
+						01
+					</div>
+					<img src="Image/starboy.jpg">
+					<div class="played-details">
+						<b>MIRAGE</b>
+						<br/><span style="color: lightgrey;">Else</span>
+					</div>
+					<div class="played-like">
+						<i class="far fa-heart"></i>
+					</div>
+				</div></a>
+			</div>
+		</aside>
+	</main>
+	<footer id="footer">
+		<div class="foot-song">
+			<img src="Image/bruno.jpg">
+			<div class="foot-detail">
+				<p><b>UPTOWN FUNK</b></p>
+				<p>BRUNO MARS</p>
+				<div class="foot-like">
+					<i class="far fa-heart"></i> &ensp;
+					<i class="fas fa-ban"></i>
+				</div>
+			</div>
+		</div>
+		<div class="audio">
+			<i class="far fa-play-circle" style="position: absolute; left: 48.5%;"></i>
+			<i class="fas fa-step-forward" style="position: absolute; right: 35%; font-size: 1.5rem; top: 10px;"></i>
+			<i class="fas fa-step-backward" style="position: absolute; left: 35%; font-size: 1.5rem; top: 10px;"></i>
+			<i class="fas fa-random" style="position: absolute; left: 25%; font-size: 1.5rem; top: 10px;"></i>
+			<i class="fas fa-share" style="position: absolute; right: 25%; font-size: 1.5rem; top: 10px;"></i>
+			<span style="font-size: 1rem; position: absolute; bottom: 5px;">0:04</span> 
+			<span style="font-size: 1rem; position: absolute; bottom: 5px; right: 0px;">4:44</span>
+			<div class="length">
+				<i class="fas fa-circle" style="position: absolute;right: 0px;font-size: 1rem; top: -5px;"></i>
+			</div>
+			<div class="back-length">
+				
+			</div>
+		</div>
+		<div class="widget">
+			<i class="fas fa-compress" style="right: 50px;"></i>
+			<i class="fas fa-volume-up" style="right: 90px;"></i>
+			<i class="fas fa-volume-mute" style="right: 140px;"></i>
+		</div>
+		<a href=""><span class="close"><i class="fas fa-times"></i></span></a>
+	</footer>
+</body>
+</html>
